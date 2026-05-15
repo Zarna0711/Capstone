@@ -7,7 +7,7 @@ OUTPUT_DIR = r"C:\capstone\outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # ── Load the full CDC PLACES 2025 CSV ─────────────────
-# This file is ~3 million rows — loading takes ~30 seconds, that's normal
+
 print("Loading CDC PLACES 2025... (this takes ~30 seconds)")
 places_file = os.path.join(DATA_DIR, "PLACES_Census_Tract_2025.csv")
 df = pd.read_csv(places_file, low_memory=False)

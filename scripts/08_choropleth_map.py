@@ -15,7 +15,7 @@ county = pd.read_csv(os.path.join(OUTPUT_DIR, "Virginia_Validated.csv"))
 print(f"County scores loaded: {len(county)} counties")
 
 # ── Load shapefile ─────────────────────────────────────
-# Try the US county file you downloaded — filter to Virginia (FIPS 51)
+
 shp_path = None
 
 # Check which shapefile exists

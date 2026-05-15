@@ -9,7 +9,7 @@ va = pd.read_csv(os.path.join(OUTPUT_DIR, "Virginia_Full_Data.csv"),
                  low_memory=False)
 print(f"Loaded: {len(va):,} rows")
 
-# ── FIRST: Print ALL measures so you can see what exists ──
+# ── FIRST: Print ALL measures to see what exists ──
 print("\n" + "="*55)
 print("ALL MEASURES IN DATA:")
 print("="*55)
@@ -20,8 +20,7 @@ print(f"\nTotal measures: {len(all_measures)}")
 print("="*55 + "\n")
 
 # ── SDOH Measure Mapping ──────────────────────────────
-# Each entry: "Your label" : "keyword to search in Short_Question_Text"
-# Keywords are case-insensitive and partial — "Annual" matches "Annual Checkup"
+
 MEASURE_MAP = {
     "Checkups":           "Annual Checkup",
     "Insurance_Gap":      "Health Insurance",

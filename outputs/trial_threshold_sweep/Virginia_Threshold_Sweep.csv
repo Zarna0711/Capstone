@@ -1,0 +1,130 @@
+CountyName,Healthcare_Desert_Score,Score_EqualWeights,Total_Population,Tract_Count,Insurance_Gap,Low_Checkups,Food_Insecurity,Housing_Insecure,Loneliness,Transport_Barriers,Utility_Threat,Risk_Tier,Rank,Is_HPSA,Flagged_HighCrit,Flagged_HighCritMod,Flagged_15_5,Flagged_15_0,Flagged_14_5,Flagged_14_0,Flagged_13_5
+Hopewell,22.2,23.65,23033,6,13.6,19.97,30.42,22.77,38.3,15.68,16.98,CRITICAL,1,True,True,True,True,True,True,True,True
+Petersburg,22.2,24.24,33458,11,12.56,17.48,31.89,24.33,39.6,16.61,18.47,CRITICAL,2,True,True,True,True,True,True,True,True
+Emporia,21.08,22.4,5766,2,13.2,17.7,29.0,22.1,38.75,14.6,15.5,HIGH,3,True,True,True,True,True,True,True,True
+Martinsville,20.86,22.43,13485,5,12.58,18.1,29.16,21.3,35.9,15.04,16.52,HIGH,4,True,True,True,True,True,True,True,True
+Danville,20.8,22.22,42585,15,12.85,18.06,28.67,20.93,37.05,14.79,15.75,HIGH,5,True,True,True,True,True,True,True,True
+Manassas Park,20.67,19.38,17219,3,17.87,25.47,21.17,17.6,37.23,10.63,9.83,HIGH,6,True,True,True,True,True,True,True,True
+Portsmouth,19.9,20.96,97915,31,11.13,20.38,25.1,19.78,38.72,13.52,14.52,HIGH,7,True,True,True,True,True,True,True,True
+Greensville,19.68,20.19,11391,3,12.5,20.7,24.33,19.27,36.67,12.63,13.33,HIGH,8,True,True,True,True,True,True,True,True
+Brunswick,19.65,20.55,15849,6,12.32,18.95,25.27,19.52,36.82,12.97,13.92,HIGH,9,True,True,True,True,True,True,True,True
+Sussex,18.91,19.35,10829,5,11.82,20.34,22.7,18.34,36.84,11.82,12.52,MODERATE,10,True,False,True,True,True,True,True,True
+Harrisonburg,18.88,18.3,51814,11,12.95,25.46,19.25,14.07,37.81,11.61,9.09,MODERATE,11,True,False,True,True,True,True,True,True
+Richmond,18.62,19.11,235533,77,10.52,22.13,20.81,16.97,38.67,11.82,12.0,MODERATE,12,True,False,True,True,True,True,True,True
+Norfolk,18.5,19.14,237998,77,10.68,20.53,21.32,17.06,38.58,12.28,12.43,MODERATE,13,True,False,True,True,True,True,True,True
+Winchester,18.38,18.07,28120,6,13.4,22.42,19.8,15.1,35.12,10.77,10.15,MODERATE,14,True,False,True,True,True,True,True,True
+Lee,18.24,18.57,22173,7,12.29,20.93,21.56,14.87,33.57,11.37,11.17,MODERATE,15,True,False,True,True,True,True,True,True
+Newport News,18.19,18.67,186247,47,10.61,20.65,20.97,17.01,37.46,11.45,11.95,MODERATE,16,True,False,True,True,True,True,True,True
+Radford,18.16,18.39,16070,4,9.5,24.48,19.48,13.88,38.83,12.52,10.12,MODERATE,17,True,False,True,True,True,True,True,True
+Prince Edward,18.1,18.67,21849,6,10.3,20.38,21.37,16.33,37.43,12.13,11.45,MODERATE,18,True,False,True,True,True,True,True,True
+Manassas,17.96,16.61,42772,7,15.03,24.41,16.3,14.06,35.43,8.53,7.79,MODERATE,19,True,False,True,True,True,True,True,True
+Halifax,17.88,18.53,34022,11,11.05,18.85,22.13,15.8,35.37,11.41,11.52,MODERATE,20,True,False,True,True,True,True,True,True
+Galax,17.72,17.66,6720,2,13.0,20.25,20.0,14.15,34.1,10.6,10.0,MODERATE,21,True,False,True,True,True,True,True,True
+Lunenburg,17.65,18.01,11936,3,11.7,18.9,21.33,15.83,33.9,11.0,11.03,MODERATE,22,True,False,True,True,True,True,True,True
+Charlotte,17.48,18.07,11529,4,11.1,18.42,21.48,15.42,34.1,11.28,11.2,MODERATE,23,True,False,True,True,True,True,True,True
+Buchanan,17.47,17.7,20355,7,11.61,20.3,20.66,13.36,34.17,10.47,9.94,MODERATE,24,True,False,True,True,True,True,True,True
+Covington,17.38,17.66,5737,2,10.85,20.5,19.85,14.35,35.4,10.5,10.25,MODERATE,25,True,False,True,True,True,True,True,True
+Buckingham,17.31,17.6,16824,4,10.72,19.62,19.88,15.38,36.1,10.32,10.48,MODERATE,26,True,False,True,True,True,True,True,True
+Hampton,17.17,17.79,137148,36,9.49,18.83,20.14,16.4,36.62,11.16,11.45,MODERATE,27,True,False,True,True,True,True,True,True
+Accomack,17.11,17.35,33412,11,11.85,18.32,19.9,14.92,34.11,10.33,10.25,MODERATE,28,True,False,True,True,True,True,True,True
+Lynchburg,17.09,17.34,79009,23,9.34,21.8,18.06,14.07,38.21,10.53,10.0,MODERATE,29,True,False,True,True,True,True,True,True
+Nottoway,17.01,17.39,15634,4,10.78,18.8,19.77,15.25,34.35,10.52,10.75,MODERATE,30,True,False,True,True,True,True,True,True
+Wise,16.95,16.95,36130,11,10.75,21.34,18.18,12.75,36.25,9.75,9.09,MODERATE,31,True,False,True,True,True,True,True,True
+Henry,16.94,17.22,50948,14,11.26,18.54,20.01,14.44,34.02,10.32,10.19,MODERATE,32,True,False,True,True,True,True,True,True
+Norton,16.84,17.08,3687,1,10.0,21.4,18.5,13.4,34.2,10.2,9.9,MODERATE,33,True,False,True,True,True,True,True,True
+Bristol,16.75,16.97,17219,5,10.42,20.66,18.76,13.26,33.44,10.12,9.88,MODERATE,34,True,False,True,True,True,True,True,True
+Prince George,16.71,16.51,43010,7,10.1,22.37,16.71,14.07,35.73,9.51,9.39,MODERATE,35,True,False,True,True,True,True,True,True
+Dickenson,16.54,16.53,14124,4,10.78,20.8,17.85,12.32,34.33,9.48,8.82,MODERATE,36,True,False,True,True,True,True,True,True
+Caroline,16.41,16.4,30887,9,10.13,20.5,17.32,13.7,35.52,9.28,9.19,MODERATE,37,True,False,True,True,True,True,True,True
+Essex,16.4,16.91,10599,3,9.9,17.57,19.53,14.8,34.53,10.17,10.4,MODERATE,38,True,False,True,True,True,True,True,True
+Grayson,16.25,16.28,15333,5,10.8,19.68,17.9,12.32,33.94,9.4,8.82,MODERATE,39,True,False,True,True,True,True,True,True
+Westmoreland,16.16,16.41,18477,6,10.77,17.58,18.93,13.7,33.23,9.82,9.5,MODERATE,40,True,False,True,True,True,True,True,True
+Charles City,16.07,16.61,6773,3,9.27,17.03,19.27,14.77,35.17,10.0,10.13,MODERATE,41,True,False,True,True,True,True,True,True
+Pittsylvania,16.07,16.34,60501,19,9.9,18.65,18.46,13.33,33.82,9.61,9.43,MODERATE,42,True,False,True,True,True,True,True,True
+Waynesboro,15.98,15.7,22196,5,10.6,21.02,15.98,12.46,33.94,8.72,8.42,LOW,43,False,False,False,True,True,True,True,True
+Buena Vista,15.9,15.6,6641,2,9.65,22.3,15.4,11.25,35.6,9.1,7.7,LOW,44,True,False,False,True,True,True,True,True
+Russell,15.86,15.76,25781,9,9.92,20.91,16.71,11.5,33.83,8.86,8.22,LOW,45,True,False,False,True,True,True,True,True
+Cumberland,15.85,16.03,9675,3,9.33,19.4,17.4,13.57,33.83,9.33,9.33,LOW,46,True,False,False,True,True,True,True,True
+Mecklenburg,15.84,16.3,30319,12,9.81,17.25,18.32,13.91,33.48,9.83,9.92,LOW,47,True,False,False,True,True,True,True,True
+Roanoke,15.8,15.78,196940,47,9.29,20.9,16.11,12.76,34.5,8.88,8.87,LOW,48,True,False,False,True,True,True,True,True
+Tazewell,15.76,15.82,40429,13,9.85,19.82,16.5,11.77,34.95,8.92,8.32,LOW,49,True,False,False,True,True,True,True,True
+Amelia,15.76,15.81,13265,3,9.73,19.63,16.9,12.8,33.67,9.1,8.8,LOW,50,True,False,False,True,True,True,True,True
+Charlottesville,15.72,15.49,46553,12,8.22,23.58,14.68,11.35,36.13,9.21,7.86,LOW,51,False,False,False,True,True,True,True,True
+Smyth,15.67,15.58,29800,9,9.9,20.59,16.19,11.51,33.66,8.81,8.21,LOW,52,True,False,False,True,True,True,True,True
+Williamsburg,15.66,15.47,15425,3,8.47,21.73,14.93,11.97,38.03,9.6,7.63,LOW,53,True,False,False,True,True,True,True,True
+Bath,15.59,15.6,4209,2,10.2,19.35,16.9,11.65,32.6,9.05,8.4,LOW,54,True,False,False,True,True,True,True,True
+Suffolk,15.57,15.95,94324,36,8.47,18.7,17.03,14.37,33.89,9.43,10.03,LOW,55,False,False,False,True,True,True,True,True
+Prince William,15.5,14.81,482202,92,10.79,21.23,14.2,12.47,34.18,7.77,7.55,LOW,56,True,False,False,True,True,True,True,True
+Fredericksburg,15.46,15.04,27982,7,8.56,23.26,13.93,11.51,35.71,8.64,7.49,LOW,57,False,False,False,False,True,True,True,True
+Amherst,15.44,15.38,31307,10,9.38,20.23,16.05,12.53,32.65,8.91,8.59,LOW,58,True,False,False,False,True,True,True,True
+Montgomery,15.39,14.94,99721,23,8.06,24.63,13.6,10.0,35.65,8.87,7.0,LOW,59,True,False,False,False,True,True,True,True
+Dinwiddie,15.3,15.38,27947,8,8.68,19.38,15.52,12.89,35.98,8.5,8.56,LOW,60,False,False,False,False,True,True,True,True
+Lexington,15.26,14.31,7320,2,7.8,27.25,11.35,8.2,38.8,8.25,5.1,LOW,61,True,False,False,False,True,True,True,True
+Scott,15.25,15.16,21576,6,9.85,19.83,15.72,11.12,32.63,8.63,7.95,LOW,62,True,False,False,False,True,True,True,True
+Southampton,15.18,15.26,17996,6,8.93,18.7,16.12,13.28,33.65,8.62,8.95,LOW,63,True,False,False,False,True,True,True,True
+King and Queen,15.16,15.36,6608,2,9.0,18.25,16.5,12.55,33.9,8.8,8.75,LOW,64,True,False,False,False,True,True,True,True
+Spotsylvania,14.98,14.42,140032,34,9.14,22.17,13.36,11.47,33.92,7.52,7.27,LOW,65,False,False,False,False,False,True,True,True
+Chesterfield,14.94,14.61,364548,75,9.08,20.93,13.97,12.05,33.27,7.9,7.95,LOW,66,False,False,False,False,False,True,True,True
+Appomattox,14.9,14.88,16119,4,8.68,19.83,15.0,11.8,33.38,8.35,8.2,LOW,67,True,False,False,False,False,True,True,True
+Northampton,14.79,14.95,12282,4,9.45,17.03,16.42,12.35,31.98,8.7,8.57,LOW,68,True,False,False,False,False,True,True,True
+Chesapeake,14.78,14.78,249422,61,8.32,19.47,14.83,12.66,33.13,8.4,8.73,LOW,69,True,False,False,False,False,True,True,True
+Warren,14.78,14.23,40727,9,9.02,22.32,12.94,10.7,33.42,7.46,6.84,LOW,70,True,False,False,False,False,True,True,True
+Carroll,14.76,14.53,29155,10,9.59,19.61,14.52,10.58,33.03,7.99,7.31,LOW,71,True,False,False,False,False,True,True,True
+Stafford,14.74,14.12,156927,32,8.61,22.93,12.43,11.03,33.83,7.44,7.07,LOW,72,True,False,False,False,False,True,True,True
+Culpeper,14.73,14.09,52552,10,9.83,21.25,12.92,11.06,33.02,7.33,6.89,LOW,73,True,False,False,False,False,True,True,True
+Surry,14.7,15.11,6561,2,8.05,16.95,16.65,13.1,33.1,8.85,9.1,LOW,74,True,False,False,False,False,True,True,True
+Patrick,14.6,14.35,17608,6,9.52,19.48,14.37,10.47,32.63,7.9,7.27,LOW,75,True,False,False,False,False,True,True,True
+Page,14.58,14.09,23709,6,9.32,20.85,13.3,10.05,33.87,7.33,6.53,LOW,76,True,False,False,False,False,True,True,True
+Campbell,14.56,14.43,55696,12,8.63,19.83,14.36,11.29,32.43,8.12,7.75,LOW,77,True,False,False,False,False,True,True,True
+Henrico,14.54,14.44,334389,84,8.04,19.92,13.85,12.12,33.92,7.86,7.96,LOW,78,False,False,False,False,False,True,True,True
+Rockingham,14.52,13.89,83757,22,9.63,21.27,12.5,9.76,34.03,7.1,6.3,LOW,79,True,False,False,False,False,True,True,True
+Virginia Beach,14.46,14.19,459470,111,8.13,20.47,12.83,11.14,35.97,7.48,7.18,LOW,80,False,False,False,False,False,False,True,True
+Greene,14.43,13.96,20552,4,8.82,21.25,12.95,10.4,33.0,7.35,6.82,LOW,81,False,False,False,False,False,False,True,True
+Franklin,14.42,14.35,62657,18,8.79,18.93,14.62,11.23,31.71,8.18,7.78,LOW,82,True,False,False,False,False,False,True,True
+Wythe,14.42,14.21,28290,8,8.51,20.31,13.44,10.3,33.78,7.65,7.16,LOW,83,True,False,False,False,False,False,True,True
+Shenandoah,14.41,13.92,44186,11,9.65,20.25,13.25,10.31,32.04,7.46,6.74,LOW,84,True,False,False,False,False,False,True,True
+Colonial Heights,14.29,13.94,18170,5,8.64,20.22,12.92,10.86,33.6,7.42,7.06,LOW,85,False,False,False,False,False,False,True,True
+Louisa,14.27,14.08,37596,9,8.32,19.78,13.51,10.88,33.42,7.58,7.27,LOW,86,True,False,False,False,False,False,True,True
+Pulaski,14.2,13.97,33796,10,8.46,19.96,13.5,10.26,32.69,7.56,7.08,LOW,87,True,False,False,False,False,False,True,True
+King William,14.17,13.84,17810,4,7.82,21.0,12.35,10.48,34.8,7.12,6.88,LOW,88,True,False,False,False,False,False,True,True
+Staunton,14.04,13.75,25750,7,7.93,20.63,12.5,10.11,33.57,7.46,6.89,LOW,89,False,False,False,False,False,False,True,True
+King George,14.0,13.54,26723,6,7.82,21.48,11.88,10.38,33.37,7.03,6.75,LOW,90,True,False,False,False,False,False,True,True
+Giles,14.0,13.54,16787,4,8.4,20.95,12.18,9.4,33.58,6.95,6.3,LOW,91,True,False,False,False,False,False,True,True
+Alleghany,13.9,13.66,15223,6,8.4,19.23,12.95,9.72,33.45,7.25,6.68,LOW,92,True,False,False,False,False,False,False,True
+Alexandria,13.88,13.17,159467,47,7.92,22.69,10.87,9.99,32.87,6.41,6.31,LOW,93,True,False,False,False,False,False,False,True
+Frederick,13.82,13.09,91419,19,8.92,21.24,11.35,9.53,32.26,6.56,5.99,LOW,94,True,False,False,False,False,False,False,True
+Orange,13.76,13.45,36254,8,8.39,19.14,12.34,10.11,33.46,7.04,6.66,LOW,95,False,False,False,False,False,False,False,True
+Bland,13.7,13.21,6270,2,8.4,20.65,11.8,9.4,32.05,6.75,6.4,LOW,96,True,False,False,False,False,False,False,True
+Powhatan,13.7,13.24,30333,6,8.05,20.67,11.78,10.07,32.22,6.75,6.67,LOW,97,True,False,False,False,False,False,False,True
+Salem,13.57,13.17,25346,5,7.64,20.52,11.74,9.34,33.2,6.94,6.26,LOW,98,False,False,False,False,False,False,False,True
+Madison,13.5,13.07,13837,4,8.15,19.82,11.85,9.4,32.52,6.78,6.15,LOW,99,False,False,False,False,False,False,False,True
+Craig,13.49,12.99,4892,1,8.2,20.3,11.7,9.0,32.1,6.7,6.0,LOW,100,True,False,False,False,False,False,False,False
+Augusta,13.46,12.99,77487,18,8.19,19.87,11.57,9.34,32.61,6.63,6.07,LOW,101,True,False,False,False,False,False,False,False
+Washington,13.46,13.09,53935,15,7.86,20.11,11.41,8.83,33.38,6.77,6.04,LOW,102,True,False,False,False,False,False,False,False
+Floyd,13.37,12.92,15476,5,8.3,19.82,11.56,9.06,31.66,6.68,6.1,LOW,103,True,False,False,False,False,False,False,False
+Isle of Wight,13.36,13.2,38606,9,7.39,18.78,12.36,10.48,32.0,7.11,6.99,LOW,104,False,False,False,False,False,False,False,False
+Fairfax,13.11,12.2,1174446,276,7.55,22.54,9.65,8.3,32.58,5.54,5.02,LOW,105,True,False,False,False,False,False,False,False
+Nelson,13.04,12.79,14775,5,8.1,17.92,12.24,9.3,30.7,6.84,6.36,LOW,106,True,False,False,False,False,False,False,False
+Bedford,12.99,12.54,79462,20,7.38,20.26,11.14,8.88,30.58,6.48,6.04,LOW,107,True,False,False,False,False,False,False,False
+Rockbridge,12.92,12.44,22650,6,7.58,19.92,10.68,8.4,31.8,6.35,5.62,LOW,108,True,False,False,False,False,False,False,False
+Gloucester,12.92,12.45,38711,9,7.5,19.84,10.64,9.04,31.63,6.29,5.87,LOW,109,True,False,False,False,False,False,False,False
+New Kent,12.84,12.4,22945,4,6.85,20.32,10.15,8.93,32.88,6.12,5.88,LOW,110,False,False,False,False,False,False,False,False
+Arlington,12.83,11.81,238631,69,6.54,24.62,7.57,7.34,33.65,5.06,4.51,LOW,111,True,False,False,False,False,False,False,False
+Fauquier,12.81,12.15,72972,20,7.74,20.44,9.96,8.67,31.1,6.0,5.52,LOW,112,False,False,False,False,False,False,False,False
+Fluvanna,12.74,12.47,27249,5,7.0,18.94,11.0,9.34,31.32,6.48,6.3,LOW,113,True,False,False,False,False,False,False,False
+York,12.74,12.29,70045,15,6.75,20.03,9.83,8.93,33.6,6.09,5.65,LOW,114,False,False,False,False,False,False,False,False
+Rappahannock,12.6,12.18,7348,2,7.65,18.7,10.7,8.3,31.15,6.2,5.65,LOW,115,True,False,False,False,False,False,False,False
+Middlesex,12.54,12.44,10625,4,7.6,16.47,12.05,9.35,30.15,6.8,6.42,LOW,116,True,False,False,False,False,False,False,False
+Lancaster,12.54,12.6,10919,4,7.55,15.4,13.02,9.4,30.2,6.93,6.6,LOW,117,True,False,False,False,False,False,False,False
+Loudoun,12.46,11.64,420913,74,7.09,21.19,8.84,7.81,32.43,5.21,4.78,LOW,118,True,False,False,False,False,False,False,False
+Hanover,12.36,11.81,109979,25,6.54,20.58,9.44,8.18,31.05,5.74,5.32,LOW,119,False,False,False,False,False,False,False,False
+Albemarle,12.28,11.64,112395,29,6.64,20.57,8.91,7.75,32.18,5.55,4.9,LOW,120,False,False,False,False,False,False,False,False
+Botetourt,12.22,11.71,33596,9,7.07,19.3,9.87,8.1,29.96,5.86,5.38,LOW,121,True,False,False,False,False,False,False,False
+Goochland,12.13,11.74,24727,6,6.18,19.22,9.32,8.55,32.4,5.52,5.35,LOW,122,False,False,False,False,False,False,False,False
+Mathews,12.01,11.7,8533,4,7.12,17.18,10.38,7.9,31.12,5.92,5.32,LOW,123,True,False,False,False,False,False,False,False
+Clarke,12.01,11.42,14783,4,6.85,19.48,8.98,7.62,31.15,5.45,4.92,LOW,124,False,False,False,False,False,False,False,False
+Northumberland,11.93,11.84,11839,4,7.32,15.08,11.22,8.68,31.08,6.22,5.78,LOW,125,True,False,False,False,False,False,False,False
+Poquoson,11.74,11.13,12460,3,6.1,20.27,8.03,7.07,31.47,5.1,4.7,LOW,126,False,False,False,False,False,False,False,False
+James City,11.53,11.14,78254,17,6.55,17.36,8.98,7.79,30.99,5.42,5.04,LOW,127,True,False,False,False,False,False,False,False
+Highland,11.38,10.91,2232,1,7.0,17.1,9.2,6.8,30.0,5.2,4.5,LOW,128,True,False,False,False,False,False,False,False
+Falls Church,10.39,9.59,14658,3,4.9,20.33,5.6,5.47,29.4,3.9,3.5,LOW,129,False,False,False,False,False,False,False,False

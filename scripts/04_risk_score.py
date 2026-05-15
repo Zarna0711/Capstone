@@ -9,12 +9,12 @@ print(f"Loaded master table: {master.shape[0]:,} tracts")
 
 # ── Step 1: Invert Checkups ────────────────────────────
 # Checkups is a POSITIVE measure (higher = healthier)
-# We flip it so higher always means MORE RISK
+# flip it so higher always means MORE RISK
 master["Low_Checkups"] = 100 - master["Checkups"]
 print(f"Low_Checkups created (mean: {master['Low_Checkups'].mean():.1f}%)")
 
 # ── Step 2: Literature-Based Weights ──────────────────
-# Justification for each weight (cite these in your report):
+# 
 # Insurance_Gap   0.25 — AHRQ 2023: strongest predictor of preventive care avoidance
 # Low_Checkups    0.20 — Direct outcome measure of access failure
 # Food_Insecurity 0.15 — Gravity Project SDOH domain: economic stability
@@ -53,8 +53,8 @@ print("Computing weighted Healthcare Desert Score...")
 master["Healthcare_Desert_Score"] = master.apply(weighted_score, axis=1)
 
 # ── Step 4: Sensitivity Analysis ──────────────────────
-# This proves your weights don't arbitrarily change the rankings
-# If correlation > 0.95, your weighted model is stable = defensible
+# 
+# If correlation > 0.95, weighted model is stable = defensible
 eq_cols = list(WEIGHTS.keys())
 master["Score_EqualWeights"] = master[eq_cols].mean(axis=1).round(2)
 correlation = master["Healthcare_Desert_Score"].corr(master["Score_EqualWeights"])

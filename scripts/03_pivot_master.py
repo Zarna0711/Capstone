@@ -18,8 +18,7 @@ master = sdoh.pivot_table(
 master.columns.name = None
 
 # ── Define SDOH columns AFTER pivot ───────────────────
-# This is what was missing — sdoh_cols must be defined
-# from the actual columns that exist in master after pivoting
+
 sdoh_cols = [
     c for c in master.columns
     if c not in ["CountyName", "LocationID", "TotalPopulation"]

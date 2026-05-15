@@ -4,7 +4,7 @@ import os
 OUTPUT_DIR = r"C:\capstone\outputs"
 DATA_DIR   = r"C:\capstone\data"
 
-# ── Load your scored counties ──────────────────────────
+# ── Load scored counties ──────────────────────────
 county = pd.read_csv(os.path.join(OUTPUT_DIR, "Virginia_Healthcare_Deserts.csv"))
 print(f"Your scored counties: {len(county)}")
 
@@ -24,7 +24,7 @@ va_hpsa = hrsa[
 ].copy()
 print(f"Virginia active Primary Care HPSAs: {len(va_hpsa)}")
 
-# ── Print HPSA column names so we can find county field ─
+# ── Print HPSA column names  ─
 print("\nHRSA columns available:")
 print([c for c in hrsa.columns if "county" in c.lower() or "name" in c.lower()])
 

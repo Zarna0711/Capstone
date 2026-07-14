@@ -1,16 +1,16 @@
 # Closing the Loop: Automated SDOH Screening via Geospatial Healthcare Desert Scores and FHIR Alerts
 
 **Author:** Zarna Patel  
-**Program:** MS Health Informatics — George Mason University  
+**Program:** MS Health Informatics - George Mason University  
 **Preceptor:** Luis Belen, CEO | NHIT  
 
 ---
 
 ## Project Overview
 
-Medical care accounts for only 10–20% of modifiable health outcomes — the remaining 80–90% are driven by social conditions like food insecurity, housing instability, and lack of insurance (Magnan, 2017). Yet most EHR systems treat a patient's home address as nothing more than a mailing label.
+Medical care accounts for only 10–20% of modifiable health outcomes - the remaining 80–90% are driven by social conditions like food insecurity, housing instability, and lack of insurance (Magnan, 2017). Yet most EHR systems treat a patient's home address as nothing more than a mailing label.
 
-In Virginia, wealthy Northern Virginia suburbs sit alongside persistently underserved Southside and Appalachian communities. These disparities are often invisible to county-level data but become clear at the census tract level. CMS 2025 HRSN screening mandates now require healthcare organizations to screen for social needs — yet no automated tool exists to trigger that screening at the point of care.
+In Virginia, wealthy Northern Virginia suburbs sit alongside persistently underserved Southside and Appalachian communities. These disparities are often invisible to county-level data but become clear at the census tract level. CMS 2025 HRSN screening mandates now require healthcare organizations to screen for social needs - yet no automated tool exists to trigger that screening at the point of care.
 
 This capstone closes that gap. A weighted Healthcare Desert Score built from CDC PLACES 2025 data across Virginia's 2,166 census tracts triggers real-time CDS Hooks alerts at patient intake — auto-generating ICD-10 Z-codes and FHIR referrals, reaching 1,148,341 Virginians with zero additional clinician burden.
 
@@ -114,13 +114,13 @@ Weights assigned based on published literature (AHRQ 2023, Gravity Project, CDC 
 
 | Indicator | Weight | Source |
 |---|---|---|
-| Insurance Gap | 25% | AHRQ 2023 — strongest predictor of preventive care avoidance |
+| Insurance Gap | 25% | AHRQ 2023 - strongest predictor of preventive care avoidance |
 | Low Checkups | 20% | Direct outcome measure of access failure |
-| Food Insecurity | 15% | Gravity Project — economic stability domain |
-| Housing Instability | 12% | Gravity Project — neighborhood environment domain |
-| Loneliness | 10% | CDC HRSN 2025 — social isolation |
-| Transport Barriers | 8% | CDC HRSN 2025 — new 2025 variable |
-| Utility Threat | 5% | CDC HRSN 2025 — new 2025 variable |
+| Food Insecurity | 15% | Gravity Project - economic stability domain |
+| Housing Instability | 12% | Gravity Project - neighborhood environment domain |
+| Loneliness | 10% | CDC HRSN 2025 - social isolation |
+| Transport Barriers | 8% | CDC HRSN 2025 - new 2025 variable |
+| Utility Threat | 5% | CDC HRSN 2025 - new 2025 variable |
 | Food Stamps | 5% | Proxy measure for economic need |
 
 ---
@@ -130,19 +130,19 @@ Weights assigned based on published literature (AHRQ 2023, Gravity Project, CDC 
 | Tier | Score Range | Tracts | Action |
 |---|---|---|---|
 | CRITICAL | ≥ 22.0 | 146 | Automated social work referral + 7-day FHIR Task |
-| HIGH | 19.0 – 21.9 | 167 | CDS alert — initiate PRAPARE screening |
-| MODERATE | 16.0 – 18.9 | 391 | Warning — review social history |
+| HIGH | 19.0 – 21.9 | 167 | CDS alert - initiate PRAPARE screening |
+| MODERATE | 16.0 – 18.9 | 391 | Warning - review social history |
 | LOW | < 16.0 | 1,462 | Standard care |
 
 ---
 
 ## Standards Used
 
-- HL7 FHIR R4 — Gravity Project SDOH Clinical Care IG v2.3.0
-- CDS Hooks — patient-view trigger
-- ICD-10-CM Z-codes — social determinant documentation
-- SNOMED-CT — condition coding
-- LOINC 71802-3 — PRAPARE screening panel
+- HL7 FHIR R4 - Gravity Project SDOH Clinical Care IG v2.3.0
+- CDS Hooks - patient-view trigger
+- ICD-10-CM Z-codes - social determinant documentation
+- SNOMED-CT - condition coding
+- LOINC 71802-3 - PRAPARE screening panel
 - CDC PLACES 2025 HRSN variables
 
 ---
@@ -151,8 +151,8 @@ Weights assigned based on published literature (AHRQ 2023, Gravity Project, CDC 
 
 - CDC PLACES values are model-estimated prevalences, not direct survey counts
 - County-level HRSA matching may miss sub-county population HPSAs
-- Sensitivity of 8.7% reflects a conservative HIGH threshold — MODERATE counties scoring 16–19 are also federally confirmed shortage areas
-- Prototype only — not yet deployed in a production EHR environment
+- Sensitivity of 8.7% reflects a conservative HIGH threshold - MODERATE counties scoring 16–19 are also federally confirmed shortage areas
+- Prototype only - not yet deployed in a production EHR environment
 
 ---
 
@@ -175,5 +175,5 @@ I sincerely thank my professor, Dr. Eman Elashkar, and my preceptor Luis Belen a
 ## Contact
 
 **Zarna Patel**  
-MS Health Informatics — George Mason University  
+MS Health Informatics - George Mason University  
 Email: zpatel3@gmu.edu
